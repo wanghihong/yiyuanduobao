@@ -17,23 +17,15 @@
 				<img class="icon" src="../assets/img/personal_reload_record.png" width="15">
 			</cell>
 		</div>
-		
 	</div>
 </template>
-
 <script>
 	import myheader from "./my/MyHeader.vue"
 	import cell from "./my/Cell.vue"
 	export default {
 		name:'My',
 		components:{
-			
 			myheader,cell
-		},
-		data(){
-			return {
-
-			}
 		}
 	}
 </script>

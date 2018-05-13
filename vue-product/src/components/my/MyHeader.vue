@@ -6,17 +6,16 @@
                 <p class="p0">心已伤透钱已欠款</p>
                 <p class="p1">ID:1872639</p>
             </a>
-          </div>
-          <div class="xm-category0-2 fl">
+        </div>
+        <div class="xm-category0-2 fl">
 	        <p class="p2 fl">夺宝币： <em>20</em> </p>
 			<a href="reload.html"><span>充值</span></a>
-		  </div>
+	    </div>
 	</div>
 </template>
 <script>
 	export default{
 		name:'MyHeader',
-
 	}
 </script>
 <style scoped>

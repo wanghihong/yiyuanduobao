@@ -3,7 +3,6 @@
 		<div class="xm-goods fl" v-for="(item, index) in items">
 			<div class="xm-goods-img" >
 				<router-link :to="{path: '/detail', query: {id: item.id}}">
-				
 					<img class="goodsimg" src="../../assets/img/p_02.png"/>
 			    </router-link>
 			</div>

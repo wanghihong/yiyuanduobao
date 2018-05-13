@@ -8,7 +8,6 @@
     </div>
 </footer>
 </template>
-
 <script>
 import {mapGetters} from 'vuex'
 export default {
@@ -22,9 +21,7 @@ export default {
     }
   },
 }
-
 </script>
-
 <style scoped>
 footer{position: fixed; bottom:0px; background: #fff; z-index: 99; }
 .xm-footer{width: 320px; height: 36px; border-top:0.5px solid #F2F2F2; background: #fff;}

@@ -6,16 +6,12 @@
 		  <mt-swipe-item><img src="../../assets/img/turn_03.jpg" /></mt-swipe-item>
 		</mt-swipe>
 	</div>
-	
 </template>
 <script>
 	import { Swipe, SwipeItem } from 'mint-ui';
-
-	
 	export default{
 		name:'swiper',
 		components:{
-			
 			[SwipeItem.name]:SwipeItem, [Swipe.name]:Swipe
 		}
 	}

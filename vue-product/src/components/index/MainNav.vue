@@ -1,20 +1,20 @@
 <template>
 	<div class="nav-list clear">		
 		<a href="bingo.html" class="nav-list-0 fl">
-				<i id="lm"><img src="../../assets/img/icon_last.png"/></i>
-				<p>最新揭晓</p>
+			<i id="lm"><img src="../../assets/img/icon_last.png"/></i>
+			<p>最新揭晓</p>
 		</a>
 		<a href="share.html" class="nav-list-0 fl">
-				<i id="rp"><img src="../../assets/img/icon_share.png"/></i>
-				<p>晒宝分享</p>
+			<i id="rp"><img src="../../assets/img/icon_share.png"/></i>
+			<p>晒宝分享</p>
 		</a>
 		<a href="find.html" class="nav-list-0 fl">
-				<i id="pp"><img src="../../assets/img/icon_find.png"/></i>
-				<p>发现夺宝</p>
+			<i id="pp"><img src="../../assets/img/icon_find.png"/></i>
+			<p>发现夺宝</p>
 		</a>
 		<a href="find2.html" class="nav-list-0 fl">
-				<i id="pp"><img src="../../assets/img/icon_help.png"/></i>
-				<p>常见问题</p>
+			<i id="pp"><img src="../../assets/img/icon_help.png"/></i>
+			<p>常见问题</p>
 		</a>
 	</div>
 </template>

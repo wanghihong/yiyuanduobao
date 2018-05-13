@@ -12,6 +12,3 @@ import topbar from "./common/TopBar.vue"
 		},
 	}
 </script>
-<style scoped>
-	
-</style>

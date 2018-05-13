@@ -7,7 +7,6 @@
 			</div></a>
 			<div class="xm-div0text fl">
 				<p class="p0">中国联通 电话充值卡面值30元中国联通 电话充值卡面值30元中国联通 电话充值卡面值30元</p>
-				
 				<div style="margin-top: 0px; font-size: 9px;">
  				
  				<div class="w_line x_new_line" id="bar">
@@ -15,7 +14,6 @@
 				</div>		
 				<em class="p1">总需 233</em>
 				<em class="fr" style="margin-right: 30px;">剩余<i>87</i></em>
-			
 				<div class="heart-wrap0">
             		<img src="../../assets/img/cart.png" class="heart1"/>
             	</div>

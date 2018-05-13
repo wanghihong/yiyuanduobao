@@ -8,11 +8,9 @@
 			<div class="clear" style="padding-bottom:50px;">
 				<goodslist :items="orderData"></goodslist>
 			</div>
-			
 		</div>
 	</div>
 </template>
-
 <script>
 	import swiper from './common/swiper.vue'
 	import mainnav from './index/MainNav.vue'
@@ -46,15 +44,10 @@
 					}else if(con == "最热") {
 						_this.orderData = res.data.hottest;
 					}
-
 				}).catch(function(err){
 					console.log(err);
 				});
 			},
 		},
-		
 	}
 </script>
-<style scoped>
-	
-</style>

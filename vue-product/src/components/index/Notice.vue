@@ -6,11 +6,9 @@
         </span>
 	</div>
 </template>
-
 <script>
 	export default {
 		name:'Notice',
-
 	}
 </script>
 <style scoped>
@@ -18,6 +16,5 @@
 .xm-broad i{font-weight:700;font-size: 10px;color: #F06060;padding-left: 12px;}
 .xm-broad>span{width:280px;font-size: 8px; color: #999;  overflow: hidden; white-space: nowrap; }
 .xm-broad em{color:#0079fe; font-weight: bold;}
-
 
 </style>

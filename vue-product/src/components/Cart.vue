@@ -7,7 +7,6 @@
 		<cartgoodslist :cartdata="cartData"></cartgoodslist>
 	</div>
 </template>
-
 <script>
 	import topbar from "./common/TopBar.vue"
 	import empty from "./cart/Empty.vue"
@@ -22,20 +21,17 @@
 		},
 		mounted(){
 			this.getData();
-			
 		},
 		methods:{
 			getData(){
 				var _this = this;
 				this.$http.get('http://localhost:8080/../static/data/cart.data').then(function(res){
 					_this.cartData = res.data.data;
-
 				}).catch(function(err){
 					console.log(err);
 				});
 			},
 		}
-		
 	}
 </script>
 <style scoped>

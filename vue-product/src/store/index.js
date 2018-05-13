@@ -7,15 +7,7 @@ const state={
 	cartnum:0,
 }
 const mutations={
-	// increment(state){
-	// 	state.num += 1;
-	// },
-	// decrement(state){
-	// 	state.num -= 1;
-	// 	if(state.num <= 1){
-	// 		state.num = 1;
-	// 	}
-	// },
+	
 	showFooter(state){
 		state.show = true;
 	},
@@ -24,7 +16,6 @@ const mutations={
 	},
 	addtocart(state){
 		state.cartnum += 1;
-		
 	}
 }
 const actions = {
@@ -33,7 +24,6 @@ const actions = {
 	addtocart:({commit})=>commit('addtocart')
 }
 const getters = {
-	
 	show:state=>state.show,
 	cartnum:state=>state.cartnum
 }

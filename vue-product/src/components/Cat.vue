@@ -8,10 +8,8 @@
 		<div class="fr" style="background: #F5F5F5;">
 			<catgoodslist></catgoodslist>
 		</div>
-		
 	</div>
 </template>
-
 <script>
 	import topbar from "./common/TopBar.vue"
 	import ordernav from "./common/OrderNav.vue"
@@ -30,6 +28,3 @@
 		}
 	}
 </script>
-<style scoped>
-	
-</style>

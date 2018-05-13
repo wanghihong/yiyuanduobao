@@ -1,7 +1,5 @@
 <template>
   <div id="app">
-    
-     
     <transition>
       <keep-alive>
         <router-view></router-view>
@@ -10,7 +8,6 @@
     <footernav v-show="show"></footernav>
   </div>
 </template>
-
 <script>
 import footernav from './components/FooterNav.vue'
 import {mapGetters} from 'vuex'

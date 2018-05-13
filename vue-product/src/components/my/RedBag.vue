@@ -3,9 +3,7 @@
 		<topbar title="我的红包">
 			<span></span>
 		</topbar>
-		
 	</div>
-	
 </template>
 <script>
 	import topbar from "../common/TopBar.vue"
@@ -16,6 +14,3 @@
 		},
 	}
 </script>
-<style scoped>
-	
-</style>

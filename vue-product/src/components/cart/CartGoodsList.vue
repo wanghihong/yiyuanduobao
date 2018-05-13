@@ -14,7 +14,6 @@
 			</div>
 	    </div>
 	</div>
-	    
 </template>
 <script>
 	import counter from '../common/Counter.vue'

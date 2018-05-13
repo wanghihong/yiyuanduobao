@@ -1,13 +1,11 @@
 <template>
 	<div class="amount">
 		<input class="jian" type="button" value="-"  @click="decrement"/> 
-		
 		<p class="text_box">{{this.counte}}</p>
 		<input class="jia_01" type="button" value="+" @click="increment"/>
 	</div>
 </template>
 <script>
-	
 	export default{
 		name:'Counter',
 		props:['num'],
@@ -29,13 +27,8 @@
 				}else{
 					this.counte--;
 				}
-				
 			}
 		}
-		
-	
-
-		
 	}
 </script>
 <style scoped>
